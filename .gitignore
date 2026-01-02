@@ -25,3 +25,4 @@ out/
 # Keystore files
 *.jks
 *.keystore
+/firmware-espidf/
