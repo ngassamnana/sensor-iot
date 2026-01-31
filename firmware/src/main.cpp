@@ -40,7 +40,7 @@ void publish_sensor_data() {
   String payload;
   serializeJson(doc, payload);
   
-  if (mqttClient.publish(payload.c_str())) {  // ← Change this
+  if (mqttClient.publish(payload.c_str())) {  
     Serial.print("Published: ");
     Serial.println(payload);
   } else {
