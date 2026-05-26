@@ -9,7 +9,7 @@ import org.json.JSONObject
 
 class MqttRepository(private val context: Context) {
 
-    private val brokerUrl = "tcp://test.mosquitto.org:1883"
+    private val brokerUrl = "tcp://broker.hivemq.com:1883"
     private val topic = "parissa/sensors"
     private var mqttClient: MqttClient? = null
 

@@ -6,7 +6,7 @@
 #include "mqtt_client.h" 
 
 // MQTT Broker settings
-const char* mqtt_broker = "test.mosquitto.org";
+const char* mqtt_broker = "broker.hivemq.com";
 const int mqtt_port = 1883;
 const char* mqtt_topic = "parissa/sensors";
 
